@@ -15,19 +15,22 @@ body {
     font-family: 'poppins', sans-serif;
 }
 
-h1,h3,h4 {
+h2,h3,h4{
     text-align: center;
-    margin-top: 15px;
+   
+
 }
-h4 {
+
+h3, h4{
     font-weight: lighter;
+    margin-top: 20px;
 }
 
 a {
     text-decoration: none;
     background: var(--primary-color);
     color: white;
-    padding: 5px;
+    padding: 10px;
     border-radius: 2px;
 }
 
@@ -36,9 +39,10 @@ hr{
     height: 5px;
 }
 .part-1 {
-    margin-top: 50px;
+    margin-top: 110px;
 }
 .container-1 {
+    height: 50vh;
     background: linear-gradient(2700deg, rgba(0,0,0,0.9),rgba(0,0,0,0.5),rgba(0,0,0,0.9)), url(./images/background.jpg);
     background-size: cover;
     background-position: center;
@@ -46,7 +50,7 @@ hr{
 } 
 
 .nav{
-    margin: 10px;
+    margin: 30px;
 }
 .container-1 .nav a {
     float: right;
@@ -61,19 +65,40 @@ hr{
 
 input[type=search] {
     width: 430px;
-    height: 30px;
+    height: 45px;
     border: white solid 2px;
     font-size: 16px;
 }
 
 .btn-get-started {
-    margin-left: 37%;
+margin-left: 37%;
+margin-top: 10px;   
 }
 
 .part-1-text {
     margin: 10px 30px;
 }
+.container-2 {
+    height: 45vh;
+    margin-top: 50px;
+}
 
-.search .btn-get-started{
-    margin-bottom: 10px;
+.tv {
+position: relative;
+bottom: 5%;
+}
+.tv img {
+    margin: 30px;
+    width: 85%;
+}
+
+.tv video {
+    height: 54%;
+    width: 64%;
+    margin-right: 10px;
+    left: 49.5%;
+    position: absolute;
+    top: 100%;
+    transform: translate(-50%,-150%);
+    z-index: -1;
 }
